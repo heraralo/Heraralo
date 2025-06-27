@@ -1,16 +1,58 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>হেরার আলো</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
 
-<!--
-**heraralo/Heraralo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  <!-- Header -->
+  <header class="bg-purple-600 text-white p-6">
+    <h1 class="text-4xl font-bold">হেরার আলো</h1>
+    <p class="text-lg">লেখালেখি ও ভিডিওর মাধ্যমে আলোকিত হোন</p>
+  </header>
 
-Here are some ideas to get you started:
+  <!-- Introduction -->
+  <section class="p-6">
+    <h2 class="text-2xl font-semibold mb-2">আমাদের উদ্দেশ্য</h2>
+    <p>“হেরার আলো” হলো একটি বাংলা প্ল্যাটফর্ম যেখানে আমরা সাহিত্যের আলো ছড়িয়ে দেই—ছোটগল্প, কবিতা, প্রবন্ধ ও ভিডিও কনটেন্টের মাধ্যমে।</p>
+  </section>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  <!-- YouTube Video Section -->
+  <section class="p-6 bg-white">
+    <h2 class="text-2xl font-semibold mb-4">আমাদের ইউটিউব ভিডিও</h2>
+    <div class="aspect-w-16 aspect-h-9">
+      <iframe width="100%" height="400" src="https://www.youtube.com/embed?listType=user_uploads&list=UCdEz55MufSl3B_w_yRmQFTQ"
+        title="হেরার আলো ইউটিউব" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="p-6 bg-gray-100">
+    <h2 class="text-2xl font-semibold mb-4">আমাদের লেখা</h2>
+    <ul class="list-disc ml-6">
+      <li>✍️ কবিতা ও গল্প</li>
+      <li>📰 প্রবন্ধ ও কলাম</li>
+      <li>🎥 ভিডিও রিভিউ ও আলোচনা</li>
+      <li>📚 সাহিত্য বিশ্লেষণ</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section class="p-6 bg-white">
+    <h2 class="text-2xl font-semibold mb-4">যোগাযোগ করুন</h2>
+    <p><strong>📞 ফোন:</strong> <a href="tel:01880216164" class="text-blue-600">01880216164</a></p>
+    <p><strong>✉️ ইমেইল:</strong> <a href="mailto:mansur6164@gmail.com" class="text-blue-600">mansur6164@gmail.com</a></p>
+    <p><strong>🌐 Facebook:</strong> <a href="https://www.facebook.com/hmmansor6364" class="text-blue-600">fb.com/hmmansor6364</a></p>
+    <p><strong>▶️ ইউটিউব:</strong> <a href="https://youtube.com/channel/UCdEz55MufSl3B_w_yRmQFTQ" class="text-blue-600">হেরার আলো চ্যানেল</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-purple-600 text-white text-center p-4 mt-6">
+    &copy; ২০২৫ হেরার আলো | সব অধিকার সংরক্ষিত
+  </footer>
+
+</body>
+</html>
